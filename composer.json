@@ -1,0 +1,23 @@
+{
+    "name": "arvindsisodia/timezone",
+    "description": "This is testing Purpose Package",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Arvind Sisodia",
+            "email": "arvinds@swaraasolutions.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "illuminate/support":"-5"
+    },
+    "autoload": {
+        "classmap": [
+        ],
+        "psr-4": {
+            "Laraveldaily\\Timezones\\": "packages/laraveldaily/timezones/src"
+        }
+    }
+}
